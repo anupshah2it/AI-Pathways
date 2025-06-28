@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  engine:
+    build: .
+    volumes:
+      - .:/app
+    command: python -m cli.main start --config channels.json
