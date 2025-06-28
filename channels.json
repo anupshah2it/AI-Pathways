@@ -1,0 +1,10 @@
+{
+  "channels": [
+    {
+      "name": "example",
+      "source": {"type": "mock"},
+      "destination": {"type": "mock"},
+      "translator": {"type": "js", "script_path": "translators/sample.js"}
+    }
+  ]
+}
